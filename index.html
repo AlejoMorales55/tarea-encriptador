@@ -18,8 +18,18 @@
                 <img src="./Img/logo.png" alt="logo">
                 <center>
                     <input type="text" id="customInput" placeholder="Escribe aquí">
-                    <button class="btn" id="encryptButton" onclick="encriptarPalabra()">Encriptar</button>
-                    <button class="btn" id="decryptButton" onclick="desencriptarPalabra()">Desencriptar</button>
+                    <div class="row">
+                        <div class="col">
+                            <div class="d-grid gap-2">
+                                <button class="btn" id="encryptButton" type="button" onclick="encriptarPalabra()">Encriptar</button>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="d-grid gap-2">
+                                <button class="btn" id="decryptButton" type="button" onclick="desencriptarPalabra()">Desencriptar</button>
+                            </div>
+                        </div>
+                    </div>
                 </center>
             </div>
             <div class="col">
@@ -30,7 +40,9 @@
                 </div>
                 <br>
                 <center>
-                    <button class="btn" id="decryptButton" onclick="copyElement()">Copiar</button>
+                    <div class="d-grid gap-2">
+                        <button class="btn" id="decryptButton" type="button" onclick="copyElement()">Copiar</button>
+                    </div>
                 </center>
             </div>
         </div>
