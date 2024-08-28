@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+body{
+    background-color: #F3F5FC !important;
+    font-family: "Inter", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+img{
+    margin: 10px;
+}
+
+
+
+.ContenedorPalabraTraducida { 
+    background-color: white;
+    height: 550px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+
+
+
+#encryptButton{
+    background-color: #0A3871;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    padding: 15px;
+}
+
+#decryptButton{
+    background-color: transparent; 
+    color: #0A3871;
+    border-radius: 60px;
+    padding: 15px;
+    border-color: #0A3871;
+}
+
+#customInput {
+    border: none; 
+    outline: none; 
+    background-color: transparent; 
+    padding: 10px; 
+    font-size: 26px; 
+    line-height: 1.5;
+    width: 100%;
+    margin: 50px;
+}
